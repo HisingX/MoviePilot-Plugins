@@ -1,5 +1,5 @@
 {
-    "SiteStatistic": {
+    "HardLinkJacker": {
         "name": "硬链接劫持器",
         "description": "劫持硬链接操作并使用自定义硬链接逻辑",
         "labels": "system工具类,硬链接",

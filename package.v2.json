@@ -10,5 +10,17 @@
         "history": {
             "v1.0": "初始化版本发布"
         }
+    },
+    "PlexPartialRefresh": {
+        "name": "Plex局部刷新",
+        "description": "整理（硬链接）成功后，自动通知Plex服务器对新资源进行局部刷新，支持路径映射。",
+        "labels": "媒体服务器,Plex",
+        "version": "1.0",
+        "icon": "Gatus_A.png",
+        "author": "HisingX",
+        "level": 2,
+        "history": {
+            "v1.0": "初始化版本发布"
+        }
     }
 }

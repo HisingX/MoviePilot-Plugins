@@ -18,7 +18,7 @@ class PlexPartialRefresh(_PluginBase):
     plugin_name = "Plex局部刷新"
     plugin_desc = "整理（硬链接）成功后，自动通知Plex服务器对新资源进行局部刷新，支持路径映射。"
     plugin_icon = "sync.png"
-    plugin_version = "1.0.0"
+    plugin_version = "1.0.1"
     plugin_author = "HisingX"
     author_url = "https://github.com/HisingX"
     plugin_config_prefix = "plexpartialrefresh_"
@@ -185,7 +185,7 @@ class PlexPartialRefresh(_PluginBase):
         }
 
     def get_page(self) -> List[dict]:
-        return []
+        pass
 
     def map_path(self, local_path: str) -> Optional[str]:
         """
